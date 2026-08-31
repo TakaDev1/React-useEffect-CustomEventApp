@@ -11,6 +11,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-4">
+      <h1>React-useEffect-CustomEventApp</h1>
       <HandleCustomEvent handler={handleCustomEvent} />
 
       <button onClick={dispatchCustomEvent} className="border px-4 py-2 rounded">
